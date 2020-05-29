@@ -1,10 +1,10 @@
 ******************************************************************************
              TMS320C2000 Linker PC v6.2.11                     
 ******************************************************************************
->> Linked Fri May 29 11:50:55 2020
+>> Linked Fri May 29 11:55:30 2020
 
 OUTPUT FILE NAME:   <Stepper_test.out>
-ENTRY POINT SYMBOL: "_c_int00"  address: 003edeb1
+ENTRY POINT SYMBOL: "_c_int00"  address: 003edea5
 
 
 MEMORY CONFIGURATION
@@ -14,7 +14,7 @@ MEMORY CONFIGURATION
 PAGE 0:
   RAML1L2L3             00008000   00004000  00002218  00001de8  RWIX
   OTP                   003d7800   00000400  00000000  00000400  RWIX
-  FLASHBCDEFGH          003e8000   0000df80  00006b7c  00007404  RWIX
+  FLASHBCDEFGH          003e8000   0000df80  00006b70  00007410  RWIX
   CSM_RSVD              003f5f80   00000076  00000076  00000000  RWIX
   BEGIN                 003f5ff6   00000002  00000002  00000000  RWIX
   CSM_PWL_P0            003f5ff8   00000008  00000008  00000000  RWIX
@@ -107,89 +107,89 @@ ramfuncs   0    003e8000    00002186     RUN ADDR = 00008000
                   003ea167    0000001b     F2806x_SysCtrl.obj (ramfuncs)
                   003ea182    00000004     F2806x_usDelay.obj (ramfuncs)
 
-.text      0    003ea186    00003f4b     
+.text      0    003ea186    00003f3f     
                   003ea186    00000c09     MainISR.obj (.text)
                   003ead8f    000006b2     Origa_Swi.obj (.text)
                   003eb441    00000696     Origa_Gf2nMath.obj (.text)
                   003ebad7    00000474     Main.obj (.text)
-                  003ebf4b    000003cf     Prepare_Pearl.obj (.text)
-                  003ec31a    0000038b     Hand_Key.obj (.text)
-                  003ec6a5    000002ee     I2C_Handle_Update.obj (.text)
-                  003ec993    00000285     GZ_TEST.obj (.text)
-                  003ecc18    0000023e     F2806x_Adc.obj (.text)
-                  003ece56    00000205     EncryptMath_SZ.lib : DecryptHex.obj (.text)
-                  003ed05b    000001ce     F2806x_Gpio.obj (.text)
-                  003ed229    000001cc     F2806x_DefaultIsr.obj (.text:retain)
-                  003ed3f5    000001b6     Origa_Ecc.obj (.text)
-                  003ed5ab    00000189     F2806x_SysCtrl.obj (.text)
-                  003ed734    00000161     F2806x_ECan.obj (.text)
-                  003ed895    00000107     rts2800_ml.lib : ll_div.obj (.text)
-                  003ed99c    000000d6     74HC595.obj (.text)
-                  003eda72    000000a8     CAN_handleYJ_BG.obj (.text)
-                  003edb1a    00000094     Origa_ID_Check.obj (.text)
-                  003edbae    00000086     SPTA.obj (.text)
-                  003edc34    00000083     rts2800_ml.lib : fd_mpy.obj (.text)
-                  003edcb7    00000083                    : fs_div.obj (.text)
-                  003edd3a    00000078                    : fs_add.obj (.text)
-                  003eddb2    0000005c     Change_Pearl_Color.obj (.text)
-                  003ede0e    0000005a     rts2800_ml.lib : fs_mpy.obj (.text)
-                  003ede68    00000049     Head_Addr.obj (.text)
-                  003edeb1    00000044     rts2800_ml.lib : boot.obj (.text)
-                  003edef5    0000002c                    : rand.obj (.text)
-                  003edf21    0000002b     DSP2806x_ECap.obj (.text)
-                  003edf4c    0000002a     rts2800_ml.lib : l_div.obj (.text)
-                  003edf76    00000028     F2806x_PieCtrl.obj (.text)
-                  003edf9e    00000025     F2806x_PieVect.obj (.text)
-                  003edfc3    00000022     rts2800_ml.lib : i_div.obj (.text)
-                  003edfe5    0000001f                    : fd_tol.obj (.text)
-                  003ee004    0000001d                    : fs_tou.obj (.text)
-                  003ee021    0000001c                    : fs_tofd.obj (.text)
-                  003ee03d    0000001a                    : l_tofs.obj (.text)
-                  003ee057    00000019                    : args_main.obj (.text)
-                  003ee070    00000019                    : exit.obj (.text)
-                  003ee089    00000014                    : ll_mpy.obj (.text)
-                  003ee09d    00000013                    : ul_tofs.obj (.text)
-                  003ee0b0    00000010                    : u_tofs.obj (.text)
-                  003ee0c0    00000009                    : _lock.obj (.text)
-                  003ee0c9    00000008     F2806x_CodeStartBranch.obj (.text)
+                  003ebf4b    000003c3     Prepare_Pearl.obj (.text)
+                  003ec30e    0000038b     Hand_Key.obj (.text)
+                  003ec699    000002ee     I2C_Handle_Update.obj (.text)
+                  003ec987    00000285     GZ_TEST.obj (.text)
+                  003ecc0c    0000023e     F2806x_Adc.obj (.text)
+                  003ece4a    00000205     EncryptMath_SZ.lib : DecryptHex.obj (.text)
+                  003ed04f    000001ce     F2806x_Gpio.obj (.text)
+                  003ed21d    000001cc     F2806x_DefaultIsr.obj (.text:retain)
+                  003ed3e9    000001b6     Origa_Ecc.obj (.text)
+                  003ed59f    00000189     F2806x_SysCtrl.obj (.text)
+                  003ed728    00000161     F2806x_ECan.obj (.text)
+                  003ed889    00000107     rts2800_ml.lib : ll_div.obj (.text)
+                  003ed990    000000d6     74HC595.obj (.text)
+                  003eda66    000000a8     CAN_handleYJ_BG.obj (.text)
+                  003edb0e    00000094     Origa_ID_Check.obj (.text)
+                  003edba2    00000086     SPTA.obj (.text)
+                  003edc28    00000083     rts2800_ml.lib : fd_mpy.obj (.text)
+                  003edcab    00000083                    : fs_div.obj (.text)
+                  003edd2e    00000078                    : fs_add.obj (.text)
+                  003edda6    0000005c     Change_Pearl_Color.obj (.text)
+                  003ede02    0000005a     rts2800_ml.lib : fs_mpy.obj (.text)
+                  003ede5c    00000049     Head_Addr.obj (.text)
+                  003edea5    00000044     rts2800_ml.lib : boot.obj (.text)
+                  003edee9    0000002c                    : rand.obj (.text)
+                  003edf15    0000002b     DSP2806x_ECap.obj (.text)
+                  003edf40    0000002a     rts2800_ml.lib : l_div.obj (.text)
+                  003edf6a    00000028     F2806x_PieCtrl.obj (.text)
+                  003edf92    00000025     F2806x_PieVect.obj (.text)
+                  003edfb7    00000022     rts2800_ml.lib : i_div.obj (.text)
+                  003edfd9    0000001f                    : fd_tol.obj (.text)
+                  003edff8    0000001d                    : fs_tou.obj (.text)
+                  003ee015    0000001c                    : fs_tofd.obj (.text)
+                  003ee031    0000001a                    : l_tofs.obj (.text)
+                  003ee04b    00000019                    : args_main.obj (.text)
+                  003ee064    00000019                    : exit.obj (.text)
+                  003ee07d    00000014                    : ll_mpy.obj (.text)
+                  003ee091    00000013                    : ul_tofs.obj (.text)
+                  003ee0a4    00000010                    : u_tofs.obj (.text)
+                  003ee0b4    00000009                    : _lock.obj (.text)
+                  003ee0bd    00000008     F2806x_CodeStartBranch.obj (.text)
 
-.cinit     0    003ee0d1    000007dc     
-                  003ee0d1    000004b4     MainISR.obj (.cinit)
-                  003ee585    00000081     SPTA.obj (.cinit)
-                  003ee606    0000007f     Prepare_Pearl.obj (.cinit)
-                  003ee685    00000064     Main.obj (.cinit)
-                  003ee6e9    0000004c     Motor_fault_check.obj (.cinit)
-                  003ee735    00000049     CAN_handleYJ_BG.obj (.cinit)
-                  003ee77e    0000003b     Hand_Key.obj (.cinit)
-                  003ee7b9    00000024     Origa_Ecc.obj (.cinit)
-                  003ee7dd    00000024     Origa_Gf2nMath.obj (.cinit)
-                  003ee801    00000021     DSP2806x_ECap.obj (.cinit)
-                  003ee822    0000001d     I2C_Handle_Update.obj (.cinit)
-                  003ee83f    0000001a     EncryptMath_SZ.lib : DecryptHex.obj (.cinit)
-                  003ee859    00000013     Head_Addr.obj (.cinit)
-                  003ee86c    0000000c     74HC595.obj (.cinit)
-                  003ee878    0000000a     rts2800_ml.lib : _lock.obj (.cinit)
-                  003ee882    0000000a                    : exit.obj (.cinit)
-                  003ee88c    00000009     GZ_TEST.obj (.cinit)
-                  003ee895    00000009     Origa_ID_Check.obj (.cinit)
-                  003ee89e    00000005     rts2800_ml.lib : rand.obj (.cinit)
-                  003ee8a3    00000004     Change_Pearl_Color.obj (.cinit)
-                  003ee8a7    00000004     Origa_Swi.obj (.cinit)
-                  003ee8ab    00000002     --HOLE-- [fill = 0]
+.cinit     0    003ee0c5    000007dc     
+                  003ee0c5    000004b4     MainISR.obj (.cinit)
+                  003ee579    00000081     SPTA.obj (.cinit)
+                  003ee5fa    0000007f     Prepare_Pearl.obj (.cinit)
+                  003ee679    00000064     Main.obj (.cinit)
+                  003ee6dd    0000004c     Motor_fault_check.obj (.cinit)
+                  003ee729    00000049     CAN_handleYJ_BG.obj (.cinit)
+                  003ee772    0000003b     Hand_Key.obj (.cinit)
+                  003ee7ad    00000024     Origa_Ecc.obj (.cinit)
+                  003ee7d1    00000024     Origa_Gf2nMath.obj (.cinit)
+                  003ee7f5    00000021     DSP2806x_ECap.obj (.cinit)
+                  003ee816    0000001d     I2C_Handle_Update.obj (.cinit)
+                  003ee833    0000001a     EncryptMath_SZ.lib : DecryptHex.obj (.cinit)
+                  003ee84d    00000013     Head_Addr.obj (.cinit)
+                  003ee860    0000000c     74HC595.obj (.cinit)
+                  003ee86c    0000000a     rts2800_ml.lib : _lock.obj (.cinit)
+                  003ee876    0000000a                    : exit.obj (.cinit)
+                  003ee880    00000009     GZ_TEST.obj (.cinit)
+                  003ee889    00000009     Origa_ID_Check.obj (.cinit)
+                  003ee892    00000005     rts2800_ml.lib : rand.obj (.cinit)
+                  003ee897    00000004     Change_Pearl_Color.obj (.cinit)
+                  003ee89b    00000004     Origa_Swi.obj (.cinit)
+                  003ee89f    00000002     --HOLE-- [fill = 0]
 
-IQmath     0    003ee8ad    00000092     RUN ADDR = 0000a186
-                  003ee8ad    00000042     IQmath.lib : IQ24sqrt.obj (IQmath)
-                  003ee8ef    00000029                : IQ24sinPU.obj (IQmath)
-                  003ee918    00000027                : IQ24cosPU.obj (IQmath)
+IQmath     0    003ee8a1    00000092     RUN ADDR = 0000a186
+                  003ee8a1    00000042     IQmath.lib : IQ24sqrt.obj (IQmath)
+                  003ee8e3    00000029                : IQ24sinPU.obj (IQmath)
+                  003ee90c    00000027                : IQ24cosPU.obj (IQmath)
 
-.econst    0    003ee940    00000213     
-                  003ee940    00000100     F2806x_PieVect.obj (.econst)
-                  003eea40    00000100     Origa_Gf2nMath.obj (.econst:_square_tab$1)
-                  003eeb40    0000000e     MainISR.obj (.econst)
-                  003eeb4e    00000005     MainISR.obj (.econst:_K1)
+.econst    0    003ee934    00000213     
+                  003ee934    00000100     F2806x_PieVect.obj (.econst)
+                  003eea34    00000100     Origa_Gf2nMath.obj (.econst:_square_tab$1)
+                  003eeb34    0000000e     MainISR.obj (.econst)
+                  003eeb42    00000005     MainISR.obj (.econst:_K1)
 
-.switch    0    003eeb54    0000002a     
-                  003eeb54    0000002a     GZ_TEST.obj (.switch:_GZ_TEST_SM)
+.switch    0    003eeb48    0000002a     
+                  003eeb48    0000002a     GZ_TEST.obj (.switch:_GZ_TEST_SM)
 
 csm_rsvd   0    003f5f80    00000076     
                   003f5f80    00000076     F2806x_CSMPasswords.obj (csm_rsvd)
@@ -745,10 +745,11 @@ address     data page           name
 
 003d7e80    f5fa (003d7e80)     _PartIdRegs
 
-003ee940    fba5 (003ee940)     _PieVectTableInit
+003ee934    fba4 (003ee900)     _PieVectTableInit
 
-003eeb40    fbad (003eeb40)     _T
-003eeb4e    fbad (003eeb40)     _K1
+003eeb34    fbac (003eeb00)     _T
+
+003eeb42    fbad (003eeb40)     _K1
 
 003f7ff8    fdff (003f7fc0)     _CsmPwl
 
@@ -820,42 +821,42 @@ GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name
 address    name
 --------   ----
 003ea186   .text
-003ee070   C$$EXIT
-003edc34   FD$$MPY
-003edfe5   FD$$TOL
-003edd3f   FS$$ADD
-003edcb7   FS$$DIV
-003ede0e   FS$$MPY
-003edd3a   FS$$SUB
-003ee021   FS$$TOFD
-003ee004   FS$$TOU
-003edfc3   I$$DIV
-003edfd4   I$$MOD
-003edf4c   L$$DIV
-003edf5b   L$$MOD
-003ee03d   L$$TOFS
-003ed895   LL$$DIV
-003ed8d1   LL$$MOD
-003ee089   LL$$MPY
-003ee0b0   U$$TOFS
-003edf69   UL$$DIV
-003edf70   UL$$MOD
-003ee09d   UL$$TOFS
-003ed90b   ULL$$DIV
-003ed93a   ULL$$MOD
-003ed288   _ADCINT1_ISR
-003ed28d   _ADCINT2_ISR
-003ed391   _ADCINT3_ISR
-003ed396   _ADCINT4_ISR
-003ed39b   _ADCINT5_ISR
-003ed3a0   _ADCINT6_ISR
-003ed3a5   _ADCINT7_ISR
-003ed3aa   _ADCINT8_ISR
-003ed29c   _ADCINT9_ISR
+003ee064   C$$EXIT
+003edc28   FD$$MPY
+003edfd9   FD$$TOL
+003edd33   FS$$ADD
+003edcab   FS$$DIV
+003ede02   FS$$MPY
+003edd2e   FS$$SUB
+003ee015   FS$$TOFD
+003edff8   FS$$TOU
+003edfb7   I$$DIV
+003edfc8   I$$MOD
+003edf40   L$$DIV
+003edf4f   L$$MOD
+003ee031   L$$TOFS
+003ed889   LL$$DIV
+003ed8c5   LL$$MOD
+003ee07d   LL$$MPY
+003ee0a4   U$$TOFS
+003edf5d   UL$$DIV
+003edf64   UL$$MOD
+003ee091   UL$$TOFS
+003ed8ff   ULL$$DIV
+003ed92e   ULL$$MOD
+003ed27c   _ADCINT1_ISR
+003ed281   _ADCINT2_ISR
+003ed385   _ADCINT3_ISR
+003ed38a   _ADCINT4_ISR
+003ed38f   _ADCINT5_ISR
+003ed394   _ADCINT6_ISR
+003ed399   _ADCINT7_ISR
+003ed39e   _ADCINT8_ISR
+003ed290   _ADCINT9_ISR
 003ebde7   _ALL_Header_Push_Pearl_Handle
-003ecc90   _AdcChanSelect
-003ecd05   _AdcConversion
-003ecc69   _AdcOffsetSelfCal
+003ecc84   _AdcChanSelect
+003eccf9   _AdcConversion
+003ecc5d   _AdcOffsetSelfCal
 00007100   _AdcRegs
 00000b00   _AdcResult
 003ec029   _AirValveHandle
@@ -864,20 +865,20 @@ address    name
 0000ca02   _BCorigin
 0000c842   _B_Mor_Ena
 0000c859   _CAN
-003ecfd8   _CANDataDecryptHandle
+003ecfcc   _CANDataDecryptHandle
 00009840   _CAN_Handle
 0000978c   _CAN_TX_DLC2
 0000975e   _CAN_TX_DLC8
 0000981c   _CAN_TX_HS
 0000982e   _CAN_TX_TZ
-003ed3af   _CLA1_INT1_ISR
-003ed3b4   _CLA1_INT2_ISR
-003ed3b9   _CLA1_INT3_ISR
-003ed3be   _CLA1_INT4_ISR
-003ed3c3   _CLA1_INT5_ISR
-003ed3c8   _CLA1_INT6_ISR
-003ed3cd   _CLA1_INT7_ISR
-003ed3d2   _CLA1_INT8_ISR
+003ed3a3   _CLA1_INT1_ISR
+003ed3a8   _CLA1_INT2_ISR
+003ed3ad   _CLA1_INT3_ISR
+003ed3b2   _CLA1_INT4_ISR
+003ed3b7   _CLA1_INT5_ISR
+003ed3bc   _CLA1_INT6_ISR
+003ed3c1   _CLA1_INT7_ISR
+003ed3c6   _CLA1_INT8_ISR
 00009ee6   _CapISR
 0000ca6b   _ChangeColorDelay
 0000a0c7   _Change_Pearl_Color
@@ -893,31 +894,31 @@ address    name
 00000c10   _CpuTimer2Regs
 003f7ff8   _CsmPwl
 00000ae0   _CsmRegs
-003ed699   _CsmUnlock
+003ed68d   _CsmUnlock
 003ebec7   _CubeDispaly_Handle
-003ed233   _DATALOG_ISR
-003ed34b   _DINTCH1_ISR
-003ed350   _DINTCH2_ISR
-003ed355   _DINTCH3_ISR
-003ed35a   _DINTCH4_ISR
-003ed35f   _DINTCH5_ISR
-003ed364   _DINTCH6_ISR
+003ed227   _DATALOG_ISR
+003ed33f   _DINTCH1_ISR
+003ed344   _DINTCH2_ISR
+003ed349   _DINTCH3_ISR
+003ed34e   _DINTCH4_ISR
+003ed353   _DINTCH5_ISR
+003ed358   _DINTCH6_ISR
 0000a182   _DSP28x_usDelay
 0000c781   _DecryptFlag
-003ed033   _DecryptHandle
-003eda72   _DecryptOutputDataHandle
+003ed027   _DecryptHandle
+003eda66   _DecryptOutputDataHandle
 0000c9eb   _Def_Par
-003edb1a   _Delay
+003edb0e   _Delay
 00000880   _DevEmuRegs
-003ed5db   _DisableDog
+003ed5cf   _DisableDog
 0000c010   _Dlog_en
 00001000   _DmaRegs
-003ed387   _ECAN0INTA_ISR
+003ed37b   _ECAN0INTA_ISR
 00009dbc   _ECAN0INT_ISR
-003ed38c   _ECAN1INTA_ISR
-003ed2fb   _ECAP1_INT_ISR
-003ed300   _ECAP2_INT_ISR
-003ed305   _ECAP3_INT_ISR
+003ed380   _ECAN1INTA_ISR
+003ed2ef   _ECAP1_INT_ISR
+003ed2f4   _ECAP2_INT_ISR
+003ed2f9   _ECAP3_INT_ISR
 00006040   _ECanaLAMRegs
 000060c0   _ECanaMOTORegs
 00006080   _ECanaMOTSRegs
@@ -927,24 +928,24 @@ address    name
 00006a20   _ECap2Regs
 00006a40   _ECap3Regs
 003ea1e2   _EGear_Init
-003ed3e6   _EMPTY_ISR
-003ed23d   _EMUINT_ISR
-003ed2d3   _EPWM1_INT_ISR
-003ed2ab   _EPWM1_TZINT_ISR
-003ed2d8   _EPWM2_INT_ISR
-003ed2b0   _EPWM2_TZINT_ISR
-003ed2dd   _EPWM3_INT_ISR
-003ed2b5   _EPWM3_TZINT_ISR
-003ed2e2   _EPWM4_INT_ISR
-003ed2ba   _EPWM4_TZINT_ISR
-003ed2e7   _EPWM5_INT_ISR
-003ed2bf   _EPWM5_TZINT_ISR
-003ed2ec   _EPWM6_INT_ISR
-003ed2c4   _EPWM6_TZINT_ISR
-003ed2f1   _EPWM7_INT_ISR
-003ed2c9   _EPWM7_TZINT_ISR
-003ed2f6   _EPWM8_INT_ISR
-003ed2ce   _EPWM8_TZINT_ISR
+003ed3da   _EMPTY_ISR
+003ed231   _EMUINT_ISR
+003ed2c7   _EPWM1_INT_ISR
+003ed29f   _EPWM1_TZINT_ISR
+003ed2cc   _EPWM2_INT_ISR
+003ed2a4   _EPWM2_TZINT_ISR
+003ed2d1   _EPWM3_INT_ISR
+003ed2a9   _EPWM3_TZINT_ISR
+003ed2d6   _EPWM4_INT_ISR
+003ed2ae   _EPWM4_TZINT_ISR
+003ed2db   _EPWM5_INT_ISR
+003ed2b3   _EPWM5_TZINT_ISR
+003ed2e0   _EPWM6_INT_ISR
+003ed2b8   _EPWM6_TZINT_ISR
+003ed2e5   _EPWM7_INT_ISR
+003ed2bd   _EPWM7_TZINT_ISR
+003ed2ea   _EPWM8_INT_ISR
+003ed2c2   _EPWM8_TZINT_ISR
 00006800   _EPwm1Regs
 00006840   _EPwm2Regs
 00006880   _EPwm3Regs
@@ -953,16 +954,16 @@ address    name
 00006940   _EPwm6Regs
 00006980   _EPwm7Regs
 000069c0   _EPwm8Regs
-003ed314   _EQEP1_INT_ISR
-003ed319   _EQEP2_INT_ISR
+003ed308   _EQEP1_INT_ISR
+003ed30d   _EQEP2_INT_ISR
 00006b00   _EQep1Regs
 00006b40   _EQep2Regs
-003ed40a   _Ecc_DoAuthentication
-003ed445   _Ecc_GenerateChallenge
-003ed45a   _Ecc_GenerateCheckValue
-003ed3f5   _Ecc_Rng128
-003ed46b   _Ecc_SendChallengeAndGetResponse
-003ed583   _Ecc_VerifyResponse
+003ed3fe   _Ecc_DoAuthentication
+003ed439   _Ecc_GenerateChallenge
+003ed44e   _Ecc_GenerateCheckValue
+003ed3e9   _Ecc_Rng128
+003ed45f   _Ecc_SendChallengeAndGetResponse
+003ed577   _Ecc_VerifyResponse
 0000a061   _Eeprom_Err_Clear
 0000a021   _Eeprom_Err_Wri
 0000ca61   _Emb_Index
@@ -970,9 +971,9 @@ address    name
 003ebc0a   _Embroider_Handle
 00000d01   _EmuBMode
 00000d00   _EmuKey
-003edf95   _EnableInterrupts
+003edf89   _EnableInterrupts
 0000c782   _EncryptBlock
-003ed709   _ExtOscSel
+003ed6fd   _ExtOscSel
 0000ca6f   _FILEFORMAT
 00000a80   _FlashRegs
 00000d04   _Flash_CPUScaleFactor
@@ -980,39 +981,39 @@ address    name
 003ea218   _ForFilInit
 0000c77a   _GZ
 00009c37   _GZ_TEST_CAN_Handle
-003ecac2   _GZ_TEST_Handle
-003ec9ef   _GZ_TEST_SM
+003ecab6   _GZ_TEST_Handle
+003ec9e3   _GZ_TEST_SM
 00006f80   _GpioCtrlRegs
 00006fc0   _GpioDataRegs
 00006fe0   _GpioIntRegs
 0000c87e   _HC595Regs
-003ed9bc   _HC595SendData
-003ed30a   _HRCAP1_INT_ISR
-003ed30f   _HRCAP2_INT_ISR
-003ed31e   _HRCAP3_INT_ISR
-003ed323   _HRCAP4_INT_ISR
+003ed9b0   _HC595SendData
+003ed2fe   _HRCAP1_INT_ISR
+003ed303   _HRCAP2_INT_ISR
+003ed312   _HRCAP3_INT_ISR
+003ed317   _HRCAP4_INT_ISR
 00006ac0   _HRCap1Regs
 00006ae0   _HRCap2Regs
 00006c80   _HRCap3Regs
 00006ca0   _HRCap4Regs
 0000c216   _HS
-003ede68   _HandleHeaderAddress
+003ede5c   _HandleHeaderAddress
 0000ca63   _Head_En
 0000caaa   _HeaderAddress
-003ede8f   _HeaderAddress_ReadAndWrite
-003ec6e1   _I2CA_ReadData
-003ec6a5   _I2CA_WriteData
-003ed369   _I2CINT1A_ISR
-003ed36e   _I2CINT2A_ISR
+003ede83   _HeaderAddress_ReadAndWrite
+003ec6d5   _I2CA_ReadData
+003ec699   _I2CA_WriteData
+003ed35d   _I2CINT1A_ISR
+003ed362   _I2CINT2A_ISR
 0000c9e3   _I2CRD_PAR
 0000c9e1   _I2CWD_PAR
-003ec747   _I2C_rrdy
-003ec73e   _I2C_xrdy
+003ec73b   _I2C_rrdy
+003ec732   _I2C_xrdy
 00007900   _I2caRegs
-003ed247   _ILLEGAL_ISR
+003ed23b   _ILLEGAL_ISR
 0000c87d   _INPUT_HC597Regs
-003ed229   _INT13_ISR
-003ed22e   _INT14_ISR
+003ed21d   _INT13_ISR
+003ed222   _INT14_ISR
 003fe9d8   _IQ10mpyRndSatTable
 003fe9cc   _IQ11mpyRndSatTable
 003fe9c0   _IQ12mpyRndSatTable
@@ -1054,8 +1055,8 @@ address    name
 003fe612   _IQisqrtRoundSatTable
 003fe622   _IQisqrtTable
 003fe724   _IQisqrtTableEnd
-003ee93f   _IQmathLoadEnd
-003ee8ad   _IQmathLoadStart
+003ee933   _IQmathLoadEnd
+003ee8a1   _IQmathLoadStart
 0000a186   _IQmathRunStart
 003fe8e8   _IQmpyRndSatTable
 003fea50   _IQmpyRndSatTableEnd
@@ -1065,57 +1066,57 @@ address    name
 003fe622   _IQsqrtTable
 003fe724   _IQsqrtTableEnd
 00009a82   _IRQHandler_SPTA
-003ecc18   _InitAdc
-003ecc47   _InitAdcAio
-003ed734   _InitECan
-003ed87c   _InitECanGpio
-003ed737   _InitECana
-003ed87f   _InitECanaGpio
-003edf21   _InitECap
+003ecc0c   _InitAdc
+003ecc3b   _InitAdcAio
+003ed728   _InitECan
+003ed870   _InitECanGpio
+003ed72b   _InitECana
+003ed873   _InitECanaGpio
+003edf15   _InitECap
 0000a167   _InitFlash
-003ed05b   _InitGpio
-003ec770   _InitI2C_NOINT
-003ed665   _InitPeripheralClocks
-003edf76   _InitPieCtrl
-003edf9e   _InitPieVectTable
-003ed5e3   _InitPll
-003ed637   _InitPll2
-003ed5ab   _InitSysCtrl
-003edbae   _Init_Motor_SPTA
-003ed6ca   _IntOsc1Sel
-003ed6da   _IntOsc2Sel
-003eeb4e   _K1
-003eda41   _KEY_HC597
+003ed04f   _InitGpio
+003ec764   _InitI2C_NOINT
+003ed659   _InitPeripheralClocks
+003edf6a   _InitPieCtrl
+003edf92   _InitPieVectTable
+003ed5d7   _InitPll
+003ed62b   _InitPll2
+003ed59f   _InitSysCtrl
+003edba2   _Init_Motor_SPTA
+003ed6be   _IntOsc1Sel
+003ed6ce   _IntOsc2Sel
+003eeb42   _K1
+003eda35   _KEY_HC597
 0000c87c   _KEY_HC597Regs
-003ec36b   _KEY_Hand_Handle
-003ec672   _KEY_Long_Handle
+003ec35f   _KEY_Hand_Handle
+003ec666   _KEY_Long_Handle
 0000c78a   _Key
 0000ca85   _KeyHandle
-003ec31a   _KeyRead
+003ec30e   _KeyRead
 00009a56   _LED_Flash
-003ed9e6   _LED_HC595SendData
-003ed3e1   _LUF_ISR
-003ed3dc   _LVF_ISR
+003ed9da   _LED_HC595SendData
+003ed3d5   _LUF_ISR
+003ed3d0   _LVF_ISR
 0000ca65   _LightState
 0000ca64   _LightState_Last
-003ec81e   _LoopMode_Read
-003ec8d0   _LoopMode_Write
+003ec812   _LoopMode_Read
+003ec8c4   _LoopMode_Write
 0000c480   _MB
 0000c500   _MC
-003ed341   _MRINTA_ISR
+003ed335   _MRINTA_ISR
 0000ca5c   _MS_SpeedCalCnt
-003ed346   _MXINTA_ISR
-003ec8e3   _Machine_State_Write
+003ed33a   _MXINTA_ISR
+003ec8d7   _Machine_State_Write
 00005000   _McbspaRegs
-003ed71f   _MemCopy
+003ed713   _MemCopy
 0000ca76   _MotorE_HIS
 000098b1   _Motor_Ctrl_FSM
 003ea253   _Motor_Ctrl_Init
 00009191   _Motor_Fault_Check
 00009fde   _Motor_Par_Init
-003ec780   _Motor_Par_PowerOn_Read
+003ec774   _Motor_Par_PowerOn_Read
 0000a08a   _Motor_Par_Reset
-003ed242   _NMI_ISR
+003ed236   _NMI_ISR
 00007060   _NmiIntruptRegs
 003ebf4b   _OPTO1_Check
 003ebf6a   _OPTO2_Check
@@ -1124,61 +1125,61 @@ address    name
 0000ca6c   _OTP3_HIS
 0000ca6d   _OTP3_RISE
 0000ca5f   _OpenLoopDelay
-003edb7d   _Origa_ID_Check
+003edb71   _Origa_ID_Check
 0000c040   _PA
 0000ca6e   _PARA
-003ed3eb   _PIE_RESERVED
+003ed3df   _PIE_RESERVED
 0000a12a   _PWM1ISR
-003ec7f0   _Par_Key_Read
-003ec890   _Par_Key_Write
+003ec7e4   _Par_Key_Read
+003ec884   _Par_Key_Write
 003d7e80   _PartIdRegs
 003ec04f   _PearlMotorC
-003ec19b   _PearlMotorD
+003ec195   _PearlMotorD
 003ebd17   _Pearl_Change_Handle
 003ebe1a   _Pearl_Change_Time_Check
-003ec2e8   _Pearl_Continuity_Check
+003ec2dc   _Pearl_Continuity_Check
 0000c00a   _Pearl_Position_State
 003ebd35   _Pearl_Push_Handle
 00000ce0   _PieCtrlRegs
 00000d00   _PieVectTable
-003ee940   _PieVectTableInit
+003ee934   _PieVectTableInit
 0000c00d   _Pos_offset_Ena
 0000c012   _Pos_offset_Set
 003ebe49   _PowerOnOff_Handle
 003ebfa5   _PrePearlHandle
 0000ca18   _PrePearl_C
 0000ca40   _PrePearl_D
-003eda96   _PushA_Handle
-003edad8   _PushB_Handle
+003eda8a   _PushA_Handle
+003edacc   _PushB_Handle
 0000984c   _PushPearl_Handle
 00009037   _Push_Pearl
-003ecfa9   _RC4_Decrypt
-003ecf9e   _RC4_Encrypt
-003eda10   _READ_HC597
-003ed238   _RTOSINT_ISR
+003ecf9d   _RC4_Decrypt
+003ecf92   _RC4_Encrypt
+003eda04   _READ_HC597
+003ed22c   _RTOSINT_ISR
 003ea186   _RamfuncsLoadEnd
 003e8000   _RamfuncsLoadStart
 00008000   _RamfuncsRunStart
-003ec750   _Read_Par
+003ec744   _Read_Par
 0000ca66   _RecordCnt
 0000ca60   _RecordDelay
 0000ca72   _RecordDelta
 0000ca5e   _RecordFlag
 0000ca70   _RecordQEP
 0000ca74   _RecordQEP_old
-003ec973   _RestartFlag_Write
-003ed373   _SCIRXINTA_ISR
-003ed37d   _SCIRXINTB_ISR
-003ed378   _SCITXINTA_ISR
-003ed382   _SCITXINTB_ISR
-003ed32d   _SPIRXINTA_ISR
-003ed337   _SPIRXINTB_ISR
-003ed332   _SPITXINTA_ISR
-003ed33c   _SPITXINTB_ISR
+003ec967   _RestartFlag_Write
+003ed367   _SCIRXINTA_ISR
+003ed371   _SCIRXINTB_ISR
+003ed36c   _SCITXINTA_ISR
+003ed376   _SCITXINTB_ISR
+003ed321   _SPIRXINTA_ISR
+003ed32b   _SPIRXINTB_ISR
+003ed326   _SPITXINTA_ISR
+003ed330   _SPITXINTB_ISR
 00007050   _SciaRegs
 00007750   _ScibRegs
 00008f65   _Self_Run_Test
-003ed5d1   _ServiceDog
+003ed5c5   _ServiceDog
 0000c036   _Spdref_filter1
 0000c02c   _Spdref_filter2
 0000c00f   _SpeedCalCnt1
@@ -1187,7 +1188,7 @@ address    name
 0000c00e   _SpeedLoopCnt2
 00007040   _SpiaRegs
 00007740   _SpibRegs
-003edbef   _Start_Motor_SPTA
+003edbe3   _Start_Motor_SPTA
 0000ca0d   _StepDelay
 003eb191   _Swi_AbortIrq
 003eb14b   _Swi_PowerDown
@@ -1210,40 +1211,40 @@ address    name
 003eae09   _Swi_WriteRegisterSpaceNoIrq
 00007010   _SysCtrlRegs
 00000985   _SysPwrCtrlRegs
-003eeb40   _T
-003ed2a1   _TINT0_ISR
+003eeb34   _T
+003ed295   _TINT0_ISR
 0000c400   _TZ
 0000ca62   _T_Pos_Set
-003ed328   _USB0_INT_ISR
-003ed279   _USER10_ISR
-003ed27e   _USER11_ISR
-003ed283   _USER12_ISR
-003ed24c   _USER1_ISR
-003ed251   _USER2_ISR
-003ed256   _USER3_ISR
-003ed25b   _USER4_ISR
-003ed260   _USER5_ISR
-003ed265   _USER6_ISR
-003ed26a   _USER7_ISR
-003ed26f   _USER8_ISR
-003ed274   _USER9_ISR
+003ed31c   _USB0_INT_ISR
+003ed26d   _USER10_ISR
+003ed272   _USER11_ISR
+003ed277   _USER12_ISR
+003ed240   _USER1_ISR
+003ed245   _USER2_ISR
+003ed24a   _USER3_ISR
+003ed24f   _USER4_ISR
+003ed254   _USER5_ISR
+003ed259   _USER6_ISR
+003ed25e   _USER7_ISR
+003ed263   _USER8_ISR
+003ed268   _USER9_ISR
 00004000   _Usb0Regs
-003ed2a6   _WAKEINT_ISR
+003ed29a   _WAKEINT_ISR
 0000a00d   _Wri_Rst_Par
 0000c9e0   _Wri_eprom_addr
-003ede70   _WriteHeaderAddress
-003ec761   _Write_Par
-003ed292   _XINT1_ISR
-003ed297   _XINT2_ISR
-003ed3d7   _XINT3_ISR
+003ede64   _WriteHeaderAddress
+003ec755   _Write_Par
+003ed286   _XINT1_ISR
+003ed28b   _XINT2_ISR
+003ed3cb   _XINT3_ISR
 00007070   _XIntruptRegs
-003ed6ee   _XtalOscSel
+003ed6e2   _XtalOscSel
 0000c843   _Y_Mor_Ena
 0000a1f1   __IQ24cosPU
 0000a1c8   __IQ24sinPU
 0000a186   __IQ24sqrt
-003ece71   __Memcpy
-003ece56   __Memset
+003ece65   __Memcpy
+003ece4a   __Memset
 00000250   __STACK_END
 00000200   __STACK_SIZE
 00000001   __TI_args_main
@@ -1251,18 +1252,18 @@ address    name
 0000c87a   ___TI_dtors_ptr
 ffffffff   ___binit__
 ffffffff   ___c_args__
-003ee0d1   ___cinit__
-003ee0d1   ___etext__
+003ee0c5   ___cinit__
+003ee0c5   ___etext__
 ffffffff   ___pinit__
 003ea186   ___text__
-003ee057   __args_main
+003ee04b   __args_main
 0000c876   __lock
-003ee0c8   __nop
-003ee0c4   __register_lock
-003ee0c0   __register_unlock
+003ee0bc   __nop
+003ee0b8   __register_lock
+003ee0b4   __register_unlock
 00000050   __stack
 0000c874   __unlock
-003ee070   _abort
+003ee064   _abort
 0000c200   _adc1
 0000c1d6   _adc2
 003eaee6   _b_UidSearch_GetDIE0Info
@@ -1274,19 +1275,19 @@ ffffffff   ___pinit__
 003eaf13   _b_pop
 003eaf26   _b_push
 0000c01a   _bck_old
-003edeb1   _c_int00
+003edea5   _c_int00
 0000c844   _cap_wat
 0000c748   _channel
 0000c007   _clkout_over
 0000c2c0   _curve1
 0000c300   _curve2
 0000c026   _curve_run_flag
-003ed99c   _delay
-003ed9ac   _delay1
+003ed990   _delay
+003ed9a0   _delay1
 0000c928   _eCAP
 0000c930   _ePWM
 0000c92c   _eQEP
-003ee072   _exit
+003ee066   _exit
 0000c240   _foc1
 0000c280   _foc2
 0000c75a   _g_culNvmTimeout
@@ -1303,7 +1304,7 @@ ffffffff   ___pinit__
 0000c752   _g_ulImmediateIntTimeOut
 0000c750   _g_ulIntTimeoutDefault
 0000c760   _g_ulResponseTimeOut
-003edb48   _get_pin
+003edb3c   _get_pin
 003eb5a1   _gf2n_add
 003ebaac   _gf2n_copy
 003eb9e9   _gf2n_inverse
@@ -1331,23 +1332,23 @@ ffffffff   ___pinit__
 0000c050   _pwm2
 0000c094   _qep1
 0000c080   _qep2
-003edf05   _rand
-003ecf94   _rc4close
-003ecfb4   _rc4crypt
-003ecf29   _rc4getc
-003ece8b   _rc4open
+003edef9   _rand
+003ecf88   _rc4close
+003ecfa8   _rc4crypt
+003ecf1d   _rc4getc
+003ece7f   _rc4open
 0000c01c   _ref_id
 0000c018   _ref_id_a
-003ed3f0   _rsvd_ISR
+003ed3e4   _rsvd_ISR
 0000c7c0   _s_rc4
 003eb493   _scalar_mul
-003edb4d   _set_pin
-003edb5e   _set_pin_dir
+003edb41   _set_pin
+003edb52   _set_pin_dir
 0000c0a8   _speed1
 0000c140   _speed2
 0000c580   _speed_bck
 0000c680   _speed_ref
-003edef5   _srand
+003edee9   _srand
 0000c762   _stDetectedPuids
 0000c380   _tPosFor_x
 0000c340   _tPosFor_y
@@ -1357,17 +1358,17 @@ ffffffff   ___pinit__
 0000c1c0   _tPosReg_y
 0000c022   _temp_64
 0000c00c   _temp_pos
-003edb27   _timing_init
+003edb1b   _timing_init
 003eaf38   _ub_SizeOfStack
 0000c980   _ub_Stack
 0000c940   _ub_StackPointer
-003edb72   _udelay
+003edb66   _udelay
 0000c758   _ulp_LifeSpanCounter
 0000cb00   _zero_polynomial
 ffffffff   binit
-003ee0d1   cinit
+003ee0c5   cinit
 003f5ff6   code_start
-003ee0d1   etext
+003ee0c5   etext
 ffffffff   pinit
 
 
@@ -1653,223 +1654,223 @@ address    name
 003ebfa5   _PrePearlHandle
 003ec029   _AirValveHandle
 003ec04f   _PearlMotorC
-003ec19b   _PearlMotorD
-003ec2e8   _Pearl_Continuity_Check
-003ec31a   _KeyRead
-003ec36b   _KEY_Hand_Handle
-003ec672   _KEY_Long_Handle
-003ec6a5   _I2CA_WriteData
-003ec6e1   _I2CA_ReadData
-003ec73e   _I2C_xrdy
-003ec747   _I2C_rrdy
-003ec750   _Read_Par
-003ec761   _Write_Par
-003ec770   _InitI2C_NOINT
-003ec780   _Motor_Par_PowerOn_Read
-003ec7f0   _Par_Key_Read
-003ec81e   _LoopMode_Read
-003ec890   _Par_Key_Write
-003ec8d0   _LoopMode_Write
-003ec8e3   _Machine_State_Write
-003ec973   _RestartFlag_Write
-003ec9ef   _GZ_TEST_SM
-003ecac2   _GZ_TEST_Handle
-003ecc18   _InitAdc
-003ecc47   _InitAdcAio
-003ecc69   _AdcOffsetSelfCal
-003ecc90   _AdcChanSelect
-003ecd05   _AdcConversion
-003ece56   __Memset
-003ece71   __Memcpy
-003ece8b   _rc4open
-003ecf29   _rc4getc
-003ecf94   _rc4close
-003ecf9e   _RC4_Encrypt
-003ecfa9   _RC4_Decrypt
-003ecfb4   _rc4crypt
-003ecfd8   _CANDataDecryptHandle
-003ed033   _DecryptHandle
-003ed05b   _InitGpio
-003ed229   _INT13_ISR
-003ed22e   _INT14_ISR
-003ed233   _DATALOG_ISR
-003ed238   _RTOSINT_ISR
-003ed23d   _EMUINT_ISR
-003ed242   _NMI_ISR
-003ed247   _ILLEGAL_ISR
-003ed24c   _USER1_ISR
-003ed251   _USER2_ISR
-003ed256   _USER3_ISR
-003ed25b   _USER4_ISR
-003ed260   _USER5_ISR
-003ed265   _USER6_ISR
-003ed26a   _USER7_ISR
-003ed26f   _USER8_ISR
-003ed274   _USER9_ISR
-003ed279   _USER10_ISR
-003ed27e   _USER11_ISR
-003ed283   _USER12_ISR
-003ed288   _ADCINT1_ISR
-003ed28d   _ADCINT2_ISR
-003ed292   _XINT1_ISR
-003ed297   _XINT2_ISR
-003ed29c   _ADCINT9_ISR
-003ed2a1   _TINT0_ISR
-003ed2a6   _WAKEINT_ISR
-003ed2ab   _EPWM1_TZINT_ISR
-003ed2b0   _EPWM2_TZINT_ISR
-003ed2b5   _EPWM3_TZINT_ISR
-003ed2ba   _EPWM4_TZINT_ISR
-003ed2bf   _EPWM5_TZINT_ISR
-003ed2c4   _EPWM6_TZINT_ISR
-003ed2c9   _EPWM7_TZINT_ISR
-003ed2ce   _EPWM8_TZINT_ISR
-003ed2d3   _EPWM1_INT_ISR
-003ed2d8   _EPWM2_INT_ISR
-003ed2dd   _EPWM3_INT_ISR
-003ed2e2   _EPWM4_INT_ISR
-003ed2e7   _EPWM5_INT_ISR
-003ed2ec   _EPWM6_INT_ISR
-003ed2f1   _EPWM7_INT_ISR
-003ed2f6   _EPWM8_INT_ISR
-003ed2fb   _ECAP1_INT_ISR
-003ed300   _ECAP2_INT_ISR
-003ed305   _ECAP3_INT_ISR
-003ed30a   _HRCAP1_INT_ISR
-003ed30f   _HRCAP2_INT_ISR
-003ed314   _EQEP1_INT_ISR
-003ed319   _EQEP2_INT_ISR
-003ed31e   _HRCAP3_INT_ISR
-003ed323   _HRCAP4_INT_ISR
-003ed328   _USB0_INT_ISR
-003ed32d   _SPIRXINTA_ISR
-003ed332   _SPITXINTA_ISR
-003ed337   _SPIRXINTB_ISR
-003ed33c   _SPITXINTB_ISR
-003ed341   _MRINTA_ISR
-003ed346   _MXINTA_ISR
-003ed34b   _DINTCH1_ISR
-003ed350   _DINTCH2_ISR
-003ed355   _DINTCH3_ISR
-003ed35a   _DINTCH4_ISR
-003ed35f   _DINTCH5_ISR
-003ed364   _DINTCH6_ISR
-003ed369   _I2CINT1A_ISR
-003ed36e   _I2CINT2A_ISR
-003ed373   _SCIRXINTA_ISR
-003ed378   _SCITXINTA_ISR
-003ed37d   _SCIRXINTB_ISR
-003ed382   _SCITXINTB_ISR
-003ed387   _ECAN0INTA_ISR
-003ed38c   _ECAN1INTA_ISR
-003ed391   _ADCINT3_ISR
-003ed396   _ADCINT4_ISR
-003ed39b   _ADCINT5_ISR
-003ed3a0   _ADCINT6_ISR
-003ed3a5   _ADCINT7_ISR
-003ed3aa   _ADCINT8_ISR
-003ed3af   _CLA1_INT1_ISR
-003ed3b4   _CLA1_INT2_ISR
-003ed3b9   _CLA1_INT3_ISR
-003ed3be   _CLA1_INT4_ISR
-003ed3c3   _CLA1_INT5_ISR
-003ed3c8   _CLA1_INT6_ISR
-003ed3cd   _CLA1_INT7_ISR
-003ed3d2   _CLA1_INT8_ISR
-003ed3d7   _XINT3_ISR
-003ed3dc   _LVF_ISR
-003ed3e1   _LUF_ISR
-003ed3e6   _EMPTY_ISR
-003ed3eb   _PIE_RESERVED
-003ed3f0   _rsvd_ISR
-003ed3f5   _Ecc_Rng128
-003ed40a   _Ecc_DoAuthentication
-003ed445   _Ecc_GenerateChallenge
-003ed45a   _Ecc_GenerateCheckValue
-003ed46b   _Ecc_SendChallengeAndGetResponse
-003ed583   _Ecc_VerifyResponse
-003ed5ab   _InitSysCtrl
-003ed5d1   _ServiceDog
-003ed5db   _DisableDog
-003ed5e3   _InitPll
-003ed637   _InitPll2
-003ed665   _InitPeripheralClocks
-003ed699   _CsmUnlock
-003ed6ca   _IntOsc1Sel
-003ed6da   _IntOsc2Sel
-003ed6ee   _XtalOscSel
-003ed709   _ExtOscSel
-003ed71f   _MemCopy
-003ed734   _InitECan
-003ed737   _InitECana
-003ed87c   _InitECanGpio
-003ed87f   _InitECanaGpio
-003ed895   LL$$DIV
-003ed8d1   LL$$MOD
-003ed90b   ULL$$DIV
-003ed93a   ULL$$MOD
-003ed99c   _delay
-003ed9ac   _delay1
-003ed9bc   _HC595SendData
-003ed9e6   _LED_HC595SendData
-003eda10   _READ_HC597
-003eda41   _KEY_HC597
-003eda72   _DecryptOutputDataHandle
-003eda96   _PushA_Handle
-003edad8   _PushB_Handle
-003edb1a   _Delay
-003edb27   _timing_init
-003edb48   _get_pin
-003edb4d   _set_pin
-003edb5e   _set_pin_dir
-003edb72   _udelay
-003edb7d   _Origa_ID_Check
-003edbae   _Init_Motor_SPTA
-003edbef   _Start_Motor_SPTA
-003edc34   FD$$MPY
-003edcb7   FS$$DIV
-003edd3a   FS$$SUB
-003edd3f   FS$$ADD
-003ede0e   FS$$MPY
-003ede68   _HandleHeaderAddress
-003ede70   _WriteHeaderAddress
-003ede8f   _HeaderAddress_ReadAndWrite
-003edeb1   _c_int00
-003edef5   _srand
-003edf05   _rand
-003edf21   _InitECap
-003edf4c   L$$DIV
-003edf5b   L$$MOD
-003edf69   UL$$DIV
-003edf70   UL$$MOD
-003edf76   _InitPieCtrl
-003edf95   _EnableInterrupts
-003edf9e   _InitPieVectTable
-003edfc3   I$$DIV
-003edfd4   I$$MOD
-003edfe5   FD$$TOL
-003ee004   FS$$TOU
-003ee021   FS$$TOFD
-003ee03d   L$$TOFS
-003ee057   __args_main
-003ee070   C$$EXIT
-003ee070   _abort
-003ee072   _exit
-003ee089   LL$$MPY
-003ee09d   UL$$TOFS
-003ee0b0   U$$TOFS
-003ee0c0   __register_unlock
-003ee0c4   __register_lock
-003ee0c8   __nop
-003ee0d1   ___cinit__
-003ee0d1   ___etext__
-003ee0d1   cinit
-003ee0d1   etext
-003ee8ad   _IQmathLoadStart
-003ee93f   _IQmathLoadEnd
-003ee940   _PieVectTableInit
-003eeb40   _T
-003eeb4e   _K1
+003ec195   _PearlMotorD
+003ec2dc   _Pearl_Continuity_Check
+003ec30e   _KeyRead
+003ec35f   _KEY_Hand_Handle
+003ec666   _KEY_Long_Handle
+003ec699   _I2CA_WriteData
+003ec6d5   _I2CA_ReadData
+003ec732   _I2C_xrdy
+003ec73b   _I2C_rrdy
+003ec744   _Read_Par
+003ec755   _Write_Par
+003ec764   _InitI2C_NOINT
+003ec774   _Motor_Par_PowerOn_Read
+003ec7e4   _Par_Key_Read
+003ec812   _LoopMode_Read
+003ec884   _Par_Key_Write
+003ec8c4   _LoopMode_Write
+003ec8d7   _Machine_State_Write
+003ec967   _RestartFlag_Write
+003ec9e3   _GZ_TEST_SM
+003ecab6   _GZ_TEST_Handle
+003ecc0c   _InitAdc
+003ecc3b   _InitAdcAio
+003ecc5d   _AdcOffsetSelfCal
+003ecc84   _AdcChanSelect
+003eccf9   _AdcConversion
+003ece4a   __Memset
+003ece65   __Memcpy
+003ece7f   _rc4open
+003ecf1d   _rc4getc
+003ecf88   _rc4close
+003ecf92   _RC4_Encrypt
+003ecf9d   _RC4_Decrypt
+003ecfa8   _rc4crypt
+003ecfcc   _CANDataDecryptHandle
+003ed027   _DecryptHandle
+003ed04f   _InitGpio
+003ed21d   _INT13_ISR
+003ed222   _INT14_ISR
+003ed227   _DATALOG_ISR
+003ed22c   _RTOSINT_ISR
+003ed231   _EMUINT_ISR
+003ed236   _NMI_ISR
+003ed23b   _ILLEGAL_ISR
+003ed240   _USER1_ISR
+003ed245   _USER2_ISR
+003ed24a   _USER3_ISR
+003ed24f   _USER4_ISR
+003ed254   _USER5_ISR
+003ed259   _USER6_ISR
+003ed25e   _USER7_ISR
+003ed263   _USER8_ISR
+003ed268   _USER9_ISR
+003ed26d   _USER10_ISR
+003ed272   _USER11_ISR
+003ed277   _USER12_ISR
+003ed27c   _ADCINT1_ISR
+003ed281   _ADCINT2_ISR
+003ed286   _XINT1_ISR
+003ed28b   _XINT2_ISR
+003ed290   _ADCINT9_ISR
+003ed295   _TINT0_ISR
+003ed29a   _WAKEINT_ISR
+003ed29f   _EPWM1_TZINT_ISR
+003ed2a4   _EPWM2_TZINT_ISR
+003ed2a9   _EPWM3_TZINT_ISR
+003ed2ae   _EPWM4_TZINT_ISR
+003ed2b3   _EPWM5_TZINT_ISR
+003ed2b8   _EPWM6_TZINT_ISR
+003ed2bd   _EPWM7_TZINT_ISR
+003ed2c2   _EPWM8_TZINT_ISR
+003ed2c7   _EPWM1_INT_ISR
+003ed2cc   _EPWM2_INT_ISR
+003ed2d1   _EPWM3_INT_ISR
+003ed2d6   _EPWM4_INT_ISR
+003ed2db   _EPWM5_INT_ISR
+003ed2e0   _EPWM6_INT_ISR
+003ed2e5   _EPWM7_INT_ISR
+003ed2ea   _EPWM8_INT_ISR
+003ed2ef   _ECAP1_INT_ISR
+003ed2f4   _ECAP2_INT_ISR
+003ed2f9   _ECAP3_INT_ISR
+003ed2fe   _HRCAP1_INT_ISR
+003ed303   _HRCAP2_INT_ISR
+003ed308   _EQEP1_INT_ISR
+003ed30d   _EQEP2_INT_ISR
+003ed312   _HRCAP3_INT_ISR
+003ed317   _HRCAP4_INT_ISR
+003ed31c   _USB0_INT_ISR
+003ed321   _SPIRXINTA_ISR
+003ed326   _SPITXINTA_ISR
+003ed32b   _SPIRXINTB_ISR
+003ed330   _SPITXINTB_ISR
+003ed335   _MRINTA_ISR
+003ed33a   _MXINTA_ISR
+003ed33f   _DINTCH1_ISR
+003ed344   _DINTCH2_ISR
+003ed349   _DINTCH3_ISR
+003ed34e   _DINTCH4_ISR
+003ed353   _DINTCH5_ISR
+003ed358   _DINTCH6_ISR
+003ed35d   _I2CINT1A_ISR
+003ed362   _I2CINT2A_ISR
+003ed367   _SCIRXINTA_ISR
+003ed36c   _SCITXINTA_ISR
+003ed371   _SCIRXINTB_ISR
+003ed376   _SCITXINTB_ISR
+003ed37b   _ECAN0INTA_ISR
+003ed380   _ECAN1INTA_ISR
+003ed385   _ADCINT3_ISR
+003ed38a   _ADCINT4_ISR
+003ed38f   _ADCINT5_ISR
+003ed394   _ADCINT6_ISR
+003ed399   _ADCINT7_ISR
+003ed39e   _ADCINT8_ISR
+003ed3a3   _CLA1_INT1_ISR
+003ed3a8   _CLA1_INT2_ISR
+003ed3ad   _CLA1_INT3_ISR
+003ed3b2   _CLA1_INT4_ISR
+003ed3b7   _CLA1_INT5_ISR
+003ed3bc   _CLA1_INT6_ISR
+003ed3c1   _CLA1_INT7_ISR
+003ed3c6   _CLA1_INT8_ISR
+003ed3cb   _XINT3_ISR
+003ed3d0   _LVF_ISR
+003ed3d5   _LUF_ISR
+003ed3da   _EMPTY_ISR
+003ed3df   _PIE_RESERVED
+003ed3e4   _rsvd_ISR
+003ed3e9   _Ecc_Rng128
+003ed3fe   _Ecc_DoAuthentication
+003ed439   _Ecc_GenerateChallenge
+003ed44e   _Ecc_GenerateCheckValue
+003ed45f   _Ecc_SendChallengeAndGetResponse
+003ed577   _Ecc_VerifyResponse
+003ed59f   _InitSysCtrl
+003ed5c5   _ServiceDog
+003ed5cf   _DisableDog
+003ed5d7   _InitPll
+003ed62b   _InitPll2
+003ed659   _InitPeripheralClocks
+003ed68d   _CsmUnlock
+003ed6be   _IntOsc1Sel
+003ed6ce   _IntOsc2Sel
+003ed6e2   _XtalOscSel
+003ed6fd   _ExtOscSel
+003ed713   _MemCopy
+003ed728   _InitECan
+003ed72b   _InitECana
+003ed870   _InitECanGpio
+003ed873   _InitECanaGpio
+003ed889   LL$$DIV
+003ed8c5   LL$$MOD
+003ed8ff   ULL$$DIV
+003ed92e   ULL$$MOD
+003ed990   _delay
+003ed9a0   _delay1
+003ed9b0   _HC595SendData
+003ed9da   _LED_HC595SendData
+003eda04   _READ_HC597
+003eda35   _KEY_HC597
+003eda66   _DecryptOutputDataHandle
+003eda8a   _PushA_Handle
+003edacc   _PushB_Handle
+003edb0e   _Delay
+003edb1b   _timing_init
+003edb3c   _get_pin
+003edb41   _set_pin
+003edb52   _set_pin_dir
+003edb66   _udelay
+003edb71   _Origa_ID_Check
+003edba2   _Init_Motor_SPTA
+003edbe3   _Start_Motor_SPTA
+003edc28   FD$$MPY
+003edcab   FS$$DIV
+003edd2e   FS$$SUB
+003edd33   FS$$ADD
+003ede02   FS$$MPY
+003ede5c   _HandleHeaderAddress
+003ede64   _WriteHeaderAddress
+003ede83   _HeaderAddress_ReadAndWrite
+003edea5   _c_int00
+003edee9   _srand
+003edef9   _rand
+003edf15   _InitECap
+003edf40   L$$DIV
+003edf4f   L$$MOD
+003edf5d   UL$$DIV
+003edf64   UL$$MOD
+003edf6a   _InitPieCtrl
+003edf89   _EnableInterrupts
+003edf92   _InitPieVectTable
+003edfb7   I$$DIV
+003edfc8   I$$MOD
+003edfd9   FD$$TOL
+003edff8   FS$$TOU
+003ee015   FS$$TOFD
+003ee031   L$$TOFS
+003ee04b   __args_main
+003ee064   C$$EXIT
+003ee064   _abort
+003ee066   _exit
+003ee07d   LL$$MPY
+003ee091   UL$$TOFS
+003ee0a4   U$$TOFS
+003ee0b4   __register_unlock
+003ee0b8   __register_lock
+003ee0bc   __nop
+003ee0c5   ___cinit__
+003ee0c5   ___etext__
+003ee0c5   cinit
+003ee0c5   etext
+003ee8a1   _IQmathLoadStart
+003ee933   _IQmathLoadEnd
+003ee934   _PieVectTableInit
+003eeb34   _T
+003eeb42   _K1
 003f5ff6   code_start
 003f7ff8   _CsmPwl
 003fdf00   _IQsinTable

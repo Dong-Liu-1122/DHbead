@@ -257,14 +257,15 @@ void PearlMotorC(void)
     case 0:
         if((Embroider.Init == 1)&&(Embroider.PearlNeedle != 0))//增加非散珠针位不启动送珠功能 2019.11.05
         {
-            if(PrePearl_C.OPTO_Flag == 0)//夹子闭合，霍尔灯亮
+/*            if(PrePearl_C.OPTO_Flag == 0)//夹子闭合，霍尔灯亮
             {
                 PrePearl_C.State = 1;//电机启动
             }
             else//夹子张开，霍尔灯灭
             {
                 PrePearl_C.State = 4;//待机状态
-            }
+            }*/
+            PrePearl_C.State = 4;//待机状态
         }
         break;
     case 1:
@@ -489,14 +490,15 @@ void PearlMotorD(void)
     case 0:
         if((Embroider.Init == 1)&&(Embroider.PearlNeedle != 0))//增加非散珠针位不启动送珠功能 2019.11.05
         {
-            if(PrePearl_D.OPTO_Flag == 0)//夹子闭合，霍尔灯亮
+           /* if(PrePearl_D.OPTO_Flag == 0)//夹子闭合，霍尔灯亮
             {
                 PrePearl_D.State = 1;//电机启动
             }
             else//夹子张开，霍尔灯灭
             {
                 PrePearl_D.State = 4;//待机状态
-            }
+            }*/
+            PrePearl_D.State = 4;//待机状态
         }
         break;
     case 1:
