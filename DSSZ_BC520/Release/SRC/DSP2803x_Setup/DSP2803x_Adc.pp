@@ -1,0 +1,5 @@
+# FIXED
+
+SRC/DSP2803x_Setup/DSP2803x_Adc.obj: ../SRC/DSP2803x_Setup/DSP2803x_Adc.c
+
+../SRC/DSP2803x_Setup/DSP2803x_Adc.c: 

@@ -1,0 +1,5 @@
+# FIXED
+
+SRC/DSP2803x_Setup/DSP2803x_ECan.obj: ../SRC/DSP2803x_Setup/DSP2803x_ECan.c
+
+../SRC/DSP2803x_Setup/DSP2803x_ECan.c: 

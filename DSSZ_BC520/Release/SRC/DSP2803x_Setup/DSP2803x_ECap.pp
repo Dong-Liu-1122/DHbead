@@ -1,0 +1,5 @@
+# FIXED
+
+SRC/DSP2803x_Setup/DSP2803x_ECap.obj: ../SRC/DSP2803x_Setup/DSP2803x_ECap.c
+
+../SRC/DSP2803x_Setup/DSP2803x_ECap.c: 
